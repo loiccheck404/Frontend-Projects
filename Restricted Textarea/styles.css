@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.textarea-counter {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative;
+}
+
+textarea.limit-reached {
+  border-color: red;
+  outline-color: red;
+}
+
+#charCount {
+  font-size: 18px;
+  color: #555;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+#charCount.limit-reached {
+  color: red;
+}
