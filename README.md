@@ -1,4 +1,4 @@
-Personal Portfolio for my frontend projects using HTML, CSS 
+Personal Portfolio for my frontend projects using HTML, CSS, JS
 
 https://roadmap.sh/projects/portfolio-website
 https://roadmap.sh/projects/single-page-cv
