@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Github Random Repository</title>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <img
+          src="./assets/github-svgrepo-com.svg"
+          alt="github-img"
+          width="30"
+          height="30"
+        />
+        <h2>Github Repository Finder</h2>
+      </header>
+      <select name="lang-select" id="lang-select">
+        <option value="select">Select</option>
+      </select>
+      <div class="repo-container">
+        <a href="#" class="repo">
+          <h3 class="repo-heading"></h3>
+          <p class="repo-desc"></p>
+          <div class="repo-info">
+            <div class="repo-lang">
+              <div class="lang-color"></div>
+              <small class="lang-info"></small>
+            </div>
+            <div class="repo-stars">
+              <img src="./assets/star-svgrepo-com.svg" alt="repo-icon" /><small
+                class="star-count"
+              ></small>
+            </div>
+            <div class="repo-forks">
+              <img src="./assets/fork-svgrepo-com.svg" alt="repo-icon" /><small
+                class="fork-count"
+              ></small>
+            </div>
+            <div class="repo-issues">
+              <img
+                src="./assets/exclamation-triangle-svgrepo-com.svg"
+                alt="repo-icon"
+              /><small class="issue-count"></small>
+            </div>
+          </div>
+        </a>
+        <div class="fallback">
+          <img
+            src="./assets/exclamation-circle-svgrepo-com.svg"
+            class="fallback-img"
+            alt="repo-icon"
+            width="25"
+            height="25"
+          />
+          <p class="fallback-info"></p>
+        </div>
+        <button type="button" class="refresh">
+          <span>Refresh</span
+          ><img
+            src="./assets/refresh-cw-alt-3-svgrepo-com.svg"
+            alt="refresh-icon"
+            width="25"
+            height="25"
+          />
+        </button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
